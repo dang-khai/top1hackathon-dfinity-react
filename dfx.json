@@ -1,19 +1,19 @@
 {
   "canisters": {
-    "day1_backend": {
-      "main": "src/day1_backend/main.mo",
+    "top1hackathon_backend": {
+      "main": "src/top1hackathon_backend/main.mo",
       "type": "motoko"
     },
-    "day1_frontend": {
+    "top1hackathon_frontend": {
       "dependencies": [
-        "day1_backend"
+        "top1hackathon_backend"
       ],
       "frontend": {
-        "entrypoint": "src/day1_frontend/src/index.html"
+        "entrypoint": "src/top1hackathon_frontend/src/index.html"
       },
       "source": [
-        "src/day1_frontend/assets",
-        "dist/day1_frontend/"
+        "src/top1hackathon_frontend/assets",
+        "dist/top1hackathon_frontend/"
       ],
       "type": "assets"
     }
